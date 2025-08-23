@@ -1,1 +1,1 @@
-Live: https://prashanthdudekula.github.io/Prashanth_Portofolio/
+Live: https://prashanthdudekula.github.io/Prashanth_Portfolio/
