@@ -4,11 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DUDEKULA PRASHANTH - Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Background Elements -->
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+    <div class="bg-blob blob-3"></div>
    <!-- Navigation -->
 <nav class="navbar">
   <div class="nav-container">
@@ -144,6 +150,10 @@
                 <div class="skill-name"><span>Java (Familiar)</span><span>25%</span></div>
                 <div class="skill-progress"><div class="skill-fill" data-width="25"></div></div>
             </div>
+            <div class="skill-bar">
+                <div class="skill-name"><span>TypeScript</span><span>30%</span></div>
+                <div class="skill-progress"><div class="skill-fill" data-width="30"></div></div>
+            </div>
         </div>
         <div class="skill-category">
             <h3>Web Development</h3>
@@ -163,11 +173,30 @@
                 <div class="skill-progress"><div class="skill-fill" data-width="25"></div></div>
             </div>
             <div class="skill-bar">
+                <div class="skill-name"><span>MediaPipe, OpenCV</span><span>35%</span></div>
+                <div class="skill-progress"><div class="skill-fill" data-width="35"></div></div>
+            </div>
+            <div class="skill-bar">
                 <div class="skill-name"><span>MySQL</span><span>45%</span></div>
                 <div class="skill-progress"><div class="skill-fill" data-width="45"></div></div>
             </div>
             <div class="skill-bar">
                 <div class="skill-name"><span>MongoDB (Familiar)</span><span>30%</span></div>
+                <div class="skill-progress"><div class="skill-fill" data-width="30"></div></div>
+            </div>
+        </div>
+        <div class="skill-category">
+            <h3>Enterprise & Cloud</h3>
+            <div class="skill-bar">
+                <div class="skill-name"><span>Salesforce</span><span>40%</span></div>
+                <div class="skill-progress"><div class="skill-fill" data-width="40"></div></div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-name"><span>SAP</span><span>30%</span></div>
+                <div class="skill-progress"><div class="skill-fill" data-width="30"></div></div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill-name"><span>ServiceNow</span><span>30%</span></div>
                 <div class="skill-progress"><div class="skill-fill" data-width="30"></div></div>
             </div>
         </div>
@@ -276,6 +305,264 @@
                     </div>
                 </div>
             </div>
+            <!-- New Projects -->
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-tasks"></i></div>
+                <div class="portfolio-content">
+                    <h3>Team-Task-Manager</h3>
+                    <p>A team task management application.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">TypeScript</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/Team-Task-Manager" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-robot"></i></div>
+                <div class="portfolio-content">
+                    <h3>MULTIBOT</h3>
+                    <p>A multi-purpose bot application.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">Python</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/MULTIBOT" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-briefcase"></i></div>
+                <div class="portfolio-content">
+                    <h3>Prashanth_Portfolio</h3>
+                    <p>My personal portfolio website.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">JS</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/Prashanth_Portfolio" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-chart-line"></i></div>
+                <div class="portfolio-content">
+                    <h3>Trading Bot</h3>
+                    <p>Simplified Trading Bot for Binance Futures Testnet.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">Python</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/Simplified-Trading-Bot-Binance-Futures-Testnet" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-balance-scale"></i></div>
+                <div class="portfolio-content">
+                    <h3>eCourts-Automation</h3>
+                    <p>Automation script for eCourts portal.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">Python</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/eCourts-Automation" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-laptop-code"></i></div>
+                <div class="portfolio-content">
+                    <h3>India-run-Hackthon</h3>
+                    <p>Project built during the India-run Hackathon.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">Python</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/India-run-Hackthon" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-user-graduate"></i></div>
+                <div class="portfolio-content">
+                    <h3>PlacementOs</h3>
+                    <p>Placement management system.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">HTML</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/PlacementOs" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-database"></i></div>
+                <div class="portfolio-content">
+                    <h3>Hive-Assignment</h3>
+                    <p>Apache Hive assignment project.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">Java</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/Hive-Assignment" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-bug"></i></div>
+                <div class="portfolio-content">
+                    <h3>QA Engineer Assignment</h3>
+                    <p>Test automation and QA engineering tasks.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">HTML</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/qa-engineer-assignment" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-dumbbell"></i></div>
+                <div class="portfolio-content">
+                    <h3>PushUps</h3>
+                    <p>Push-up counter and tracker application.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">Python</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/PushUps" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-shield-alt"></i></div>
+                <div class="portfolio-content">
+                    <h3>Institute of Digital Risk</h3>
+                    <p>Digital Risk platform project.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">HTML</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/-Institute-of-Digital-Risk-IDR-" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-key"></i></div>
+                <div class="portfolio-content">
+                    <h3>Password Generator</h3>
+                    <p>A secure password generator application.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">Python</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/Password-Genertor" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-coins"></i></div>
+                <div class="portfolio-content">
+                    <h3>Crypto Trading Bot</h3>
+                    <p>Automated cryptocurrency trading bot.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">Bot</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/Crypto-Trading-Bot" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-chart-pie"></i></div>
+                <div class="portfolio-content">
+                    <h3>E-Commerce Churn Analysis</h3>
+                    <p>Customer churn analysis and sales tracking.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">Data Analysis</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/E-Commerce-Sales-Customer-Churn-Analysis." class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-blind"></i></div>
+                <div class="portfolio-content">
+                    <h3>CSM-2025-26-BATCH-B16</h3>
+                    <p>IoT-Based Smart Walking Stick for the Visually Impaired.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">IoT</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/Rashmikondeti/CSM-2025-26-BATCH-B16" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-store"></i></div>
+                <div class="portfolio-content">
+                    <h3>Sweet Shop Management System</h3>
+                    <p>System for managing sweet shop operations.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">Management System</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/prashanthdudekula/Sweet-Shop-Management-System" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="portfolio-item">
+                <div class="portfolio-image"><i class="fas fa-heartbeat"></i></div>
+                <div class="portfolio-content">
+                    <h3>HealthHub</h3>
+                    <p>Health and wellness application.</p>
+                    <div class="portfolio-tech">
+                        <span class="tech-tag">App</span>
+                    </div>
+                    <div class="portfolio-links">
+                        <a href="https://github.com/Shannmukha2004/HealthHub" class="portfolio-link" target="_blank">
+                            <i class="fab fa-github"></i> GitHub Link
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -313,6 +600,22 @@
                 <strong>Salesforce Developer with AgentBlazer Champion Program</strong> <span class="cert-year">(2025)</span><br>
                 <span class="cert-issuer">SmartBridge</span><br>
                 <a href="https://drive.google.com/file/d/14PBULcDJP9eZqKvlKavOw1wLHVe5MiW0/view?usp=drive_link" target="_blank" class="cert-link">View Certificate</a>
+            </div>
+        </div>
+        <div class="certification-item">
+            <i class="fas fa-certificate" style="color:#00b894; font-size:1.5rem; margin-right:10px;"></i>
+            <div>
+                <strong>SAP Certification</strong><br>
+                <span class="cert-issuer">SAP</span><br>
+                <a href="https://drive.google.com/file/d/1A8NggU-JeJXOBXfEaC61xNRRQ_0w2E1Z/view?usp=sharing" target="_blank" class="cert-link">View Certificate</a>
+            </div>
+        </div>
+        <div class="certification-item">
+            <i class="fas fa-certificate" style="color:#00b894; font-size:1.5rem; margin-right:10px;"></i>
+            <div>
+                <strong>ServiceNow Certified Application Developer</strong><br>
+                <span class="cert-issuer">ServiceNow</span><br>
+                <a href="https://drive.google.com/file/d/1LTiz5bOZWYlgyuBI70gAogbAt-saT4cq/view?usp=drive_link" target="_blank" class="cert-link">View Certificate</a>
             </div>
         </div>
     </div>
